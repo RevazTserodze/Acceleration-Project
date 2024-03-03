@@ -1,0 +1,42 @@
+.hamburgerButton {
+  display: none;
+}
+.noneResponsive {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  font-size: larger;
+}
+
+.linkNoneResponsive {
+  color: white;
+  text-decoration: none;
+}
+.responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  font-size: larger;
+  flex-direction: column;
+  display: none;
+}
+.linkResponsive {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+@media (max-width: 800px) {
+  .hamburgerButton {
+    display: block;
+  }
+  .responsive {
+    display: block;
+  }
+  .noneResponsive {
+    display: none;
+  }
+}

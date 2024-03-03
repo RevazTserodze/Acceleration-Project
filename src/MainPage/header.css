@@ -1,0 +1,46 @@
+.Header {
+  padding: 15px;
+}
+.Header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.Header .image {
+  margin-bottom: 15px;
+}
+
+.Header img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 500px;
+}
+
+.Header .text {
+  text-align: center;
+}
+
+.Header h2 {
+  font-size: 50px;
+  font-weight: unset;
+}
+
+.Header p {
+  font-size: 25px;
+  font-weight: unset;
+}
+
+@media (max-width: 1360px) {
+  .Header ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Header .text {
+    margin-top: 20px;
+  }
+}

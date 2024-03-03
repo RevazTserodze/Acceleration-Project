@@ -1,0 +1,55 @@
+.HistoryHeader {
+    padding: 15px;
+  }
+  
+  .HistoryHeader-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  
+  .HistoryHeader-image {
+    margin-bottom: 15px;
+  }
+  
+  .HistoryHeader-img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .HistoryHeader-text {
+    text-align: center;
+  }
+  
+  .HistoryHeader-heading {
+    font-size: 50px;
+    font-weight: unset;
+  }
+  
+  .HistoryHeader-paragraph {
+    font-size: 25px;
+    font-weight: unset;
+  }
+  
+  @media (max-width: 1360px) {
+    .HistoryHeader-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .HistoryHeader-heading {
+      font-size: 40px;
+    }
+  
+    .HistoryHeader-paragraph {
+      font-size: 20px;
+    }
+  
+    .HistoryHeader-text {
+      margin-top: 20px;
+    }
+  }
+  
